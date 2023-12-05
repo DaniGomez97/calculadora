@@ -1,0 +1,39 @@
+.btn-clear {
+  height: 80px;
+  font-size: 1.6em; /* Unidad relativa. 1,6 veces tamaño contenedor */
+  display: flex;
+  flex: 1;
+  background-color: red;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 45px;
+  user-select: none;
+}
+
+.btn-clear:hover {
+  background-color: lightsalmon;
+}
+
+@media (max-width: 550px) {
+  .btn-clear {
+    height: 50px;
+    font-size: 1.4em; /* Unidad relativa. 1,6 veces tamaño contenedor */
+    display: flex;
+    flex: 1;
+    background-color: red;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 45px;
+    user-select: none;
+  }
+}

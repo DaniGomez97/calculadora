@@ -1,0 +1,25 @@
+.boton-contenedor{
+    height: 83px;
+    flex: 1 1; /* El boton depende de los demas botones. 2 botones = espacio en mitad y mitad. 3btn = 1/3 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: beige;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none; /* No deja seleccionar el txt*/
+}
+.boton-contenedor:hover{
+    background-color: blueviolet;
+}
+.operador{
+    background-color: red;
+}
+.operador:hover{
+    background-color: lightcoral;
+}
